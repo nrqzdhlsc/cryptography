@@ -1,3 +1,7 @@
+'''
+问题描述：凯撒加密解密算法中的k大小不知道，现在给定一个密文，求解解密后的明文
+'''
+
 cipher = "OVDTHUFWVZZPISLRLFZHYLAOLYL"
 MOD = 26
 
@@ -19,6 +23,35 @@ def main():
         res.append(temp)
 
     print(res)
+
+
+# 结果输出：
+# ['ovdthufwvzzpislrlfzhylaolyl', 
+# 'nucsgtevuyyohrkqkeygxkznkxk', 
+# 'mtbrfsdutxxngqjpjdxfwjymjwj', 
+# 'lsaqerctswwmfpioicwevixlivi', 
+# 'krzpdqbsrvvleohnhbvduhwkhuh', 
+# 'jqyocparquukdngmgauctgvjgtg', 
+# 'ipxnbozqpttjcmflfztbsfuifsf', 
+# 'howmanypossiblekeysarethere',  ##### 这句是对的
+# 'gnvlzmxonrrhakdjdxrzqdsgdqd', 
+# 'fmukylwnmqqgzjcicwqypcrfcpc', 
+# 'eltjxkvmlppfyibhbvpxobqebob', 
+# 'dksiwjulkooexhagauownapdana', 
+# 'cjrhvitkjnndwgzfztnvmzoczmz',
+# 'biqguhsjimmcvfyeysmulynbyly', 
+# 'ahpftgrihllbuexdxrltkxmaxkx', 
+# 'zgoesfqhgkkatdwcwqksjwlzwjw', 
+# 'yfndrepgfjjzscvbvpjrivkyviv', 
+# 'xemcqdofeiiyrbuauoiqhujxuhu', 
+# 'wdlbpcnedhhxqatztnhpgtiwtgt', 
+# 'vckaobmdcggwpzsysmgofshvsfs', 
+# 'ubjznalcbffvoyrxrlfnergurer', 
+# 'taiymzkbaeeunxqwqkemdqftqdq', 
+# 'szhxlyjazddtmwpvpjdlcpespcp', 
+# 'rygwkxizyccslvouoickbodrobo', 
+# 'qxfvjwhyxbbrkuntnhbjancqnan', 
+# 'pweuivgxwaaqjtmsmgaizmbpmzm']
 
 if __name__ == '__main__':
     main()
